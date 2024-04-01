@@ -56,7 +56,7 @@
             <TabItem Header="Login">
                 <Grid Background="{Binding Source={x:Static properties:Settings.Default}, Path=ColorPalatte_Background}">
                     <DockPanel Margin="30 20 30 20">
-                        <TextBlock Text="Login" DockPanel.Dock="Top" TextAlignment="Center" FontWeight="Bold" FontSize="18"/>
+                        <TextBlock Text="Loginggggggggg" DockPanel.Dock="Top" TextAlignment="Center" FontWeight="Bold" FontSize="18"/>
                         <userControl:TextOnlyButtonUC x:Name="loginBtn" Click="loginBtn_Click" UC_Text="Login" DockPanel.Dock="Bottom" Width="90"/>
                         <StackPanel x:Name="loginPanel" VerticalAlignment="Center" Loaded="loginPanel_Loaded" Unloaded="loginPanel_Unloaded">
                             <StackPanel.Resources>
